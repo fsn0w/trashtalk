@@ -19,7 +19,7 @@ $company2 = get_field('keep_company_2');
 
 ?>
 
-<div class="min-h-[70vh] overflow-hidden text-center pt-40 pb-14 bg-cover bg-fixed relative" style="background-image:url(<?=$hero?>); background-position: center 70%;">
+<div class="min-h-[70vh] overflow-hidden text-center pt-40 pb-14 md:bg-cover bg-fixed relative" style="background-image:url(<?=$hero?>); background-position: center 70%;">
     <span class="absolute z-0 inset-0 w-full h-full border-red-600 bg-gradient-to-b from-[#031728]"></span>
     <div class="relative z-10">
         <h1>This is a big <br> F**king <span class="inline-block font-futura bg-primary px-2 pt-2 pb-3 text-dark text-4xl -rotate-6 translate-y-5 md:-translate-y-5">problem.</span></h1>
