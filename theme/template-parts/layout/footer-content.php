@@ -11,7 +11,7 @@
 
 <footer id="colophon" class="bg-foreground">
 
-	<div class="container flex flex-col-reverse md:flex-row">
+	<div class="container flex flex-col-reverse md:flex-row mx-auto">
 		<div class="md:w-1/2 text-center md:text-left">
 			<a href="/" class="inline-block"><svg class="h-6 w-auto" width="227" height="35" viewBox="0 0 227 35" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<path d="M9.02371 34.1392V10.6159H0V1.77768H28.3195V10.6159H19.2958V34.1392H9.01134H9.02371Z" fill="white"/>
