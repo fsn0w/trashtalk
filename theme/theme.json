@@ -11,23 +11,43 @@
 				},
 				{
 					"slug": "foreground",
-					"color": "#404040",
+					"color": "#2A3938",
 					"name": "Foreground"
 				},
 				{
+					"slug": "light",
+					"color": "#ffffff",
+					"name": "Light"
+				},
+				{
+					"slug": "dark",
+					"color": "#000000",
+					"name": "Dark"
+				},
+				{
 					"slug": "primary",
-					"color": "#b91c1c",
+					"color": "#E5E771",
 					"name": "Primary"
 				},
 				{
 					"slug": "secondary",
-					"color": "#15803d",
+					"color": "#5FB599",
 					"name": "Secondary"
 				},
 				{
 					"slug": "tertiary",
-					"color": "#0369a1",
+					"color": "#E6E781",
 					"name": "Tertiary"
+				},
+				{
+					"slug": "quaternary",
+					"color": "#5FB69B",
+					"name": "Quaternary"
+				},
+				{
+					"slug": "custom-gray",
+					"color": "#EDEDEB",
+					"name": "Custom Gray"
 				}
 			]
 		},
