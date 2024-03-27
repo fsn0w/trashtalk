@@ -33,7 +33,7 @@ $company2 = get_field('keep_company_2');
             <span class="inline-block font-futura bg-primary px-2 pt-2 pb-3 text-secondary text-2xl md:text-4xl -rotate-6 -translate-y-5 absolute bottom-4 xl:bottom-1/4 -right-4 xl:-right-1/4">let's talk trash.</span>
             <img src="<?=$solution_image?>" alt="let's talk trash." loading="lazy" class="mx-auto" />
         </div>
-        <h2 class="text-2xl md:text-4xl whitespace-nowrap">Welcome to <span class="inline-block font-futura bg-primary px-2 pt-1 pb-0 text-secondary text-2xl md:text-4xl -rotate-3 -translate-y-1 uppercase relative z-10">Trashtalk</span></h2>
+        <h2 class="text-2xl md:text-4xl whitespace-nowrap">Welcome to <span class="inline-block font-futura bg-primary px-2 pt-1 pb-0 text-secondary text-2xl md:text-4xl -rotate-3 -translate-y-1 uppercase relative z-10">Talktrash</span></h2>
         <h2 class="text-2xl md:text-4xl -mt-4 whitespace-nowrap">Powered by <span class="inline-block font-futura bg-secondary px-4 pt-4 pb-4 rotate-3 translate-y-3 uppercase"><img src="<?=$aeglobal_logo_black?>" class=" w-[100px] md:w-[250px]" loading="lazy" /></span></h2>
     </div>
 </div>
@@ -57,13 +57,13 @@ $company2 = get_field('keep_company_2');
     <div class=" container mx-auto md:flex">
         <div class="md:w-1/2 text-light md:px-5">
             <h3 class="text-tertiary md:pl-4">We believe the plastic <br class="hidden lg:block">crisis can be solved now.</h3>
-            <p class="pt-4 pb-6 md:pl-4 font-inter">Trash Talk isn't some TEDx-lite, kum-ba-yah session about saving the world. It's the realization that while plastic isn't a dirty word, it is a dirty business. It's also proof that one man's trash...well, you get it.</p>
+            <p class="pt-4 pb-6 md:pl-4 font-inter">Talk Trash isn't some TEDx-lite, kum-ba-yah session about saving the world. It's the realization that while plastic isn't a dirty word, it is a dirty business. It's also proof that one man's trash...well, you get it.</p>
             <img src="<?=$img1?>" alt="We believe the plastic crisis can be solved now" loading="lazy">
         </div>
         <div class="mt-4 md:mt-0 md:w-1/2 text-light md:px-5">
             <img src="<?=$img2?>" alt="From Trash to Treasure" loading="lazy">
             <h3 class="text-quaternary py-4 md:pl-4">From Trash to Treasure.</h3>
-            <p class="md:pl-4 font-inter">AE Global has already launched the first of this program in the Dominican Republic. We are looking for partners to help us expand our reach. Trash Talk could be your sustainability impact story. Unapologetic, bold, and white labeled. We told you we have big ideas. Interested?</p>
+            <p class="md:pl-4 font-inter">AE Global has already launched the first of this program in the Dominican Republic. We are looking for partners to help us expand our reach. Talk Trash could be your sustainability impact story. Unapologetic, bold, and white labeled. We told you we have big ideas. Interested?</p>
         </div>
     </div>
 </div>
