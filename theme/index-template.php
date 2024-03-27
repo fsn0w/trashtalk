@@ -73,20 +73,20 @@ $company2 = get_field('keep_company_2');
         <h2 class="text-center">This Is How We <br/>Make the <span class="inline-block font-futura bg-primary px-2 pt-0 pb-1 md:pb-2 text-secondary text-2xl md:text-4xl -rotate-6 ">magic</span> Happen.</h2>
         <div class="grid md:grid-cols-3 gap-12 mt-8">
 
-            <div class="img-numlist-block">
-                <span style="background-image:url(<?=$img_block_1?>);"><strong>1.</strong></span>
+            <div class="img-numlist-block group">
+                <span style="background-image:url(<?=$img_block_1?>);" class="group-hover:bg-[size:130%]"><strong>1.</strong></span>
                 <h3>The plastic <br>is collected.</h3>
                 <p>We pay fair wages to members of the community to collect plastic. By employing locals, employment numbers increase and stimulate the local economy.</p>
             </div>
 
-            <div class="img-numlist-block">
-                <span style="background-image:url(<?=$img_block_2?>);"><strong>2.</strong></span>
+            <div class="img-numlist-block group">
+                <span style="background-image:url(<?=$img_block_2?>);" class="group-hover:bg-[size:130%]"><strong>2.</strong></span>
                 <h3>The plastic gets<br> processed.</h3>
                 <p>The collected plastic is separated and run through our recycling process to be in a raw state again, ready for new life.</p>
             </div>
 
-            <div class="img-numlist-block">
-                <span style="background-image:url(<?=$img_block_3?>);"><strong>3.</strong></span>
+            <div class="img-numlist-block group">
+                <span style="background-image:url(<?=$img_block_3?>);" class="group-hover:bg-[size:130%]"><strong>3.</strong></span>
                 <h3>Sustainable<br> packaging is born.</h3>
                 <p>The renewed, processed plastic is moved into production, becoming various forms of sustainable packaging solutions.</p>
             </div>

@@ -16,7 +16,7 @@
 }
 
  .img-numlist-block span {
-    @apply w-full flex p-2 items-end bg-[size:100%] bg-center aspect-square transition-all duration-300 hover:bg-[size:130%]
+    @apply w-full flex p-2 items-end bg-[size:100%] bg-center aspect-square transition-all duration-300
  }
 
  .img-numlist-block span>strong {
