@@ -75,7 +75,7 @@ $company2 = get_field('keep_company_2');
 
             <div class="img-numlist-block">
                 <span style="background-image:url(<?=$img_block_1?>);"><strong>1.</strong></span>
-                <h3>The plastic is<br> collected.</h3>
+                <h3>The plastic <br>is collected.</h3>
                 <p>We pay fair wages to members of the community to collect plastic. By employing locals, employment numbers increase and stimulate the local economy.</p>
             </div>
 
