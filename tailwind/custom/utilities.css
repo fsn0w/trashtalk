@@ -75,3 +75,24 @@
  .ico-minus {
     @apply after:content-['-']
  }
+
+ /*
+ * LOGO ANIM
+ */
+
+ .voice u {
+   @apply text-light no-underline -mt-1 translate-x-0 opacity-0 font-futura
+ }
+
+ @keyframes voiceLeft {
+   0% {
+      transform: translateX(0px);
+   }
+   50% {
+      opacity: 1;
+   }
+   100% {
+      transform: translateX(-20px);
+      opacity: 0;
+   }
+ }

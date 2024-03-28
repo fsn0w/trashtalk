@@ -33,6 +33,24 @@ module.exports = {
 			  '2xl': '10rem',
 			},
 		},
+		keyframes: {
+			voiceleft: {
+			  '0%': { transform: 'translateX(0px)' },
+			  '50%': { opacity: 1 },
+			  '80%': { transform: 'translateX(-20px)'},
+			  '100%': { opacity:0, transform: 'translateX(-20px)' },
+			},
+			voiceright: {
+				'0%': { transform: 'translateX(0px)' },
+				'50%': { opacity: 1 },
+				'80%': { transform: 'translateX(20px)'},
+				'100%': { opacity:0, transform: 'translateX(20px)' },
+			  }
+		},
+		animation: {
+			'voiceleft': 'voiceleft 4s infinite',
+			'voiceright': 'voiceright 4s infinite',
+		}
 	},
 	corePlugins: {
 		// Disable Preflight base styles in builds targeting the editor.
@@ -44,6 +62,7 @@ module.exports = {
 
 		// Extract colors and widths from `theme.json`.
 		require('@_tw/themejson'),
+		require("tailwindcss-animation-delay"),
 
 		// Uncomment below to add additional first-party Tailwind plugins.
 		// require('@tailwindcss/forms'),

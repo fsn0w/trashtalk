@@ -55,6 +55,7 @@
 	},
 	"prettier": "@wordpress/prettier-config",
 	"dependencies": {
-		"alpinejs": "^3.13.7"
+		"alpinejs": "^3.13.7",
+		"tailwindcss-animation-delay": "^1.2.0"
 	}
 }

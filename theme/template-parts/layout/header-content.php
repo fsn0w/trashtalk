@@ -12,8 +12,8 @@
 <header id="masthead" class="h-20 absolute w-full p-10 z-10">
 
 	<div class=" text-center">
-		<a href="/" class="inline-block">
-			<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 275.7 42.5" style="enable-background:new 0 0 275.7 42.5;" xml:space="preserve" class="h-6">
+		<a href="/" class="inline-block group">
+			<span class="flex voice items-center"><u class="text-2xl group-hover:animate-voiceleft">(</u><u class="text-lg group-hover:animation-delay-500 group-hover:animate-voiceleft">(</u><u class="text-xs group-hover:animation-delay-1000 group-hover:animate-voiceleft">(</u><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 275.7 42.5" style="enable-background:new 0 0 275.7 42.5;" xml:space="preserve" class="h-6 w-auto relative z-10">
 				<g>
 					<g>
 						<g>
@@ -39,6 +39,24 @@
 								L104.3,41.5L104.3,41.5z"/>
 						</g>
 					</g>
+				</g>
+			</svg><u class="text-xs group-hover:animation-delay-1000 group-hover:animate-voiceright">)</u><u class="text-lg group-hover:animation-delay-500 group-hover:animate-voiceright">)</u><u class="text-2xl group-hover:animate-voiceright">)</u></span>
+
+			<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 189.4 29.2" style="enable-background:new 0 0 189.4 29.2;" xml:space="preserve" class="h-5 w-auto pl-12 pt-0.5 opacity-0 -translate-y-5 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
+				<g>
+					<path style="fill:#30BA99;" d="M1,28.7h4.4l8.6-18l8.3,18h4.4L14.2,1.9L1,28.7z M45.4,6.1V2.3H30.8v26.5h14.6v-3.8H34.8v-8.3h10.2
+						v-3.8H34.8V6.1H45.4z"/>
+					<path style="fill:#FFFFFF;" d="M64.7,17.6h9.4c-0.1,1.7-0.7,3.9-1.7,5.5c-1.4,2.2-4.7,4.5-9.2,4.5c-6.8,0-11.8-5.3-11.8-11.9
+						c0-6.7,5.2-12.1,11.9-12.1c3.3,0,5.9,1.4,7.6,2.8c0.7,0.6,1.8,1.7,2.5,2.9l1.4-1.1c-1.1-1.5-2.1-2.5-3.2-3.3
+						c-2.1-1.6-4.6-2.9-8.3-2.9c-7.7,0-13.8,5.8-13.8,13.7c0,7.9,5.9,13.6,13.7,13.6c4,0,7.6-1.5,10-4.4c2.2-2.8,2.7-6.3,2.7-8.7H64.7
+						V17.6z M81.6,2.3h-1.7v26.5H89v-1.6h-7.4V2.3z M104.8,1.9c-7.7,0-13.7,6-13.7,13.7s6,13.6,13.7,13.6c7.7,0,13.7-6,13.7-13.6
+						S112.5,1.9,104.8,1.9z M104.8,27.6c-6.8,0-11.9-5.3-11.9-12c0-6.8,5.1-12.1,11.9-12.1c6.8,0,11.9,5.3,11.9,12.1
+						C116.7,22.3,111.6,27.6,104.8,27.6z M132.6,14.7c1.7-1.1,3.1-2.9,3.1-5.8c0-4-2.7-6.6-7.3-6.6h-5.8v26.5h7.3c4.8,0,8.2-2.8,8.2-7.4
+						C138,17.9,136,15.2,132.6,14.7z M124.3,3.8h3.4c1.4,0,3.1,0.1,4.4,1.1c0.9,0.7,1.8,2,1.8,4.1c0,1.8-0.7,3.2-1.7,4
+						c-1.2,1-2.3,1.1-3.6,1.1h-4.2V3.8z M134.5,25.6c-1.8,1.6-4,1.6-5.8,1.6h-4.4V15.8h4.1c2.9,0,4.2,0.4,5,0.8c2,0.9,2.8,2.5,2.8,4.9
+						C136.2,22.7,135.9,24.3,134.5,25.6z M142.1,28.7h1.9l9.2-22.4l9.1,22.4h1.9l-11-26.8L142.1,28.7z M170.1,2.3h-1.7v26.5h9.1v-1.6
+						h-7.4V2.3z M179.3,24.5h1.2v4.3h0.5v-4.3h1.2V24h-2.8V24.5z M187.2,23.7l-1.9,4l-1.8-4l-0.8,5h0.5l0.5-3.3l1.6,3.5l1.6-3.5l0.5,3.3
+						h0.5L187.2,23.7z"/>
 				</g>
 			</svg>
 		</a>
