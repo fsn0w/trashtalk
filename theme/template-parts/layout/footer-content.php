@@ -13,7 +13,7 @@
 
 	<div class="container flex flex-col-reverse items-center md:flex-row mx-auto">
 		<div class="md:w-1/2 text-center md:text-left">
-			<a href="/" class="inline-block">
+			<a href="/" class="inline-block hover:animate-pulse">
 				
 			<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 275.7 42.5" style="enable-background:new 0 0 275.7 42.5;" xml:space="preserve" class="h-6 w-auto">
 				<g>
