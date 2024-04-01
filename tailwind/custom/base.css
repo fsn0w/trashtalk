@@ -34,3 +34,11 @@ h3 {
 .btn-yellow {
 	@apply bg-primary text-foreground font-inter font-bold px-6 py-2 border-2 border-primary transition-all duration-300 hover:bg-foreground hover:text-light
 }
+
+.btn-blue {
+	@apply bg-quaternary text-primary font-inter font-bold px-6 py-2 border-2 border-primary transition-all duration-300 hover:bg-foreground hover:text-light
+}
+
+.btn-white {
+	@apply bg-light text-foreground font-inter font-bold px-6 py-2 border-2 border-primary transition-all duration-300 hover:bg-quaternary hover:text-light
+}

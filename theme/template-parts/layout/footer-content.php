@@ -65,8 +65,7 @@
 			</a>
 		</div>
 		<div class="mb-10 md:mb-0 md:w-1/2 md:text-right flex justify-between md:justify-end items-center">
-			<span class="text-tertiary font-bold text-xl font-superdisp">Ready to Join Us?</span>
-			<button type="button" class="md:ml-8 btn-yellow">Contact Us</button>
+			<button type="button" class="md:ml-8 btn-yellow uppercase">Join the movement</button>
 		</div>
 	</div>
 
