@@ -40,7 +40,7 @@
  }
 
  .company-keep>div a {
-    @apply inline-block mt-10 p-4 hover:bg-secondary hover:bg-opacity-20
+    @apply inline-block mt-10 p-4 transition-all duration-300 hover:bg-secondary hover:bg-opacity-20
  }
 
  .company-keep>div a>img {
