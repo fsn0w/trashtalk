@@ -120,74 +120,41 @@ $company2 = get_field('keep_company_2');
         <div class="mt-12">
 
             <ul class="faq">
+
+            <?php
+            if( have_rows('questions') ):
+
+                $n = 0;
+
+                while( have_rows('questions') ) : the_row();
+                    $n++;
+                    $q = get_sub_field('question');
+                    $a = get_sub_field('answer');
+                ?>
 						
-                <li x-data="{selected:null}">
+                <li x-data="{isOpen:<?=($n==1 ? 'true' : 'false')?>}">
         
-                    <button type="button" @click="selected !== 1 ? selected = 1 : selected = null">
+                    <button type="button" @click="isOpen = !isOpen">
                         <div>
-                            <strong>What is Plastic Neutral and Negative?</strong>
-                            <span :class="{ 'ico-plus': selected === null, 'ico-minus': selected !== null }"></span>
+                            <strong><?=$q?></strong>
+                            <span :class="{ 'ico-plus': !isOpen, 'ico-minus': isOpen }"></span>
                         </div>
                     </button>
         
-                    <div class="bg-custom-gray relative overflow-hidden transition-all max-h-0 duration-700" style="" x-ref="container1" x-bind:style="selected == 1 ? 'max-height: ' + $refs.container1.scrollHeight + 'px' : ''">
+                    <div class="bg-custom-gray relative overflow-hidden transition-all max-h-0 duration-700" x-bind:style="isOpen ? 'max-height: ' + $refs.container<?=$n?>.scrollHeight + 'px' : ''">
                         <div class="p-6">
-                            <p>For every additional kilogram of plastic waste recovered from the environment, one verified plastic removal credit is generated on behalf of the brand. For every additional kilogram of plastic waste recovered from the environment, one verified plastic removal credit is generated on behalf of the brand. For every additional kilogram of plastic waste recovered from the environment, one verified plastic removal credit is generated on behalf of the brand.</p>
+                            <?=$a?>
                         </div>
                     </div>
         
                 </li>
                 
-                <li x-data="{selected:null}">
-        
-                    <button type="button" @click="selected !== 1 ? selected = 1 : selected = null">
-                        <div>
-                            <strong>What is Verified Plastic Removal?</strong>
-                            <span :class="{ 'ico-plus': selected === null, 'ico-minus': selected !== null }"></span>
-                        </div>
-                    </button>
-        
-                    <div class="bg-custom-gray relative overflow-hidden transition-all max-h-0 duration-700" style="" x-ref="container2" x-bind:style="selected == 1 ? 'max-height: ' + $refs.container2.scrollHeight + 'px' : ''">
-                        <div class="p-6">
-                            <p>For every additional kilogram of plastic waste recovered from the environment, one verified plastic removal credit is generated on behalf of the brand. For every additional kilogram of plastic waste recovered from the environment, one verified plastic removal credit is generated on behalf of the brand. For every additional kilogram of plastic waste recovered from the environment, one verified plastic removal credit is generated on behalf of the brand.</p>
-                        </div>
-                    </div>
-        
-                </li>
+                <?php
 
-                <li x-data="{selected:null}">
-        
-                    <button type="button" @click="selected !== 1 ? selected = 1 : selected = null">
-                        <div>
-                            <strong>Question 3?</strong>
-                            <span :class="{ 'ico-plus': selected === null, 'ico-minus': selected !== null }"></span>
-                        </div>
-                    </button>
-        
-                    <div class="bg-custom-gray relative overflow-hidden transition-all max-h-0 duration-700" style="" x-ref="container3" x-bind:style="selected == 1 ? 'max-height: ' + $refs.container3.scrollHeight + 'px' : ''">
-                        <div class="p-6">
-                            <p>For every additional kilogram of plastic waste recovered from the environment, one verified plastic removal credit is generated on behalf of the brand. For every additional kilogram of plastic waste recovered from the environment, one verified plastic removal credit is generated on behalf of the brand. For every additional kilogram of plastic waste recovered from the environment, one verified plastic removal credit is generated on behalf of the brand.</p>
-                        </div>
-                    </div>
-        
-                </li>
+endwhile;
 
-                <li x-data="{selected:null}">
-        
-                    <button type="button" @click="selected !== 1 ? selected = 1 : selected = null">
-                        <div>
-                            <strong>Question 4?</strong>
-                            <span :class="{ 'ico-plus': selected === null, 'ico-minus': selected !== null }"></span>
-                        </div>
-                    </button>
-        
-                    <div class="bg-custom-gray relative overflow-hidden transition-all max-h-0 duration-700" style="" x-ref="container3" x-bind:style="selected == 1 ? 'max-height: ' + $refs.container3.scrollHeight + 'px' : ''">
-                        <div class="p-6">
-                            <p>For every additional kilogram of plastic waste recovered from the environment, one verified plastic removal credit is generated on behalf of the brand. For every additional kilogram of plastic waste recovered from the environment, one verified plastic removal credit is generated on behalf of the brand. For every additional kilogram of plastic waste recovered from the environment, one verified plastic removal credit is generated on behalf of the brand.</p>
-                        </div>
-                    </div>
-        
-                </li>
+endif;
+?>
 
             </ul>
 
