@@ -141,7 +141,7 @@ $company2 = get_field('keep_company_2');
                         </div>
                     </button>
         
-                    <div class="bg-custom-gray relative overflow-hidden transition-all max-h-0 duration-700" x-bind:style="isOpen ? 'max-height: ' + $refs.container<?=$n?>.scrollHeight + 'px' : ''">
+                    <div class="bg-custom-gray relative overflow-hidden transition-all max-h-0 duration-700" x-ref="container<?=$n?>" x-bind:style="isOpen ? 'max-height: ' + $refs.container<?=$n?>.scrollHeight + 'px' : ''">
                         <div class="p-6">
                             <?=$a?>
                         </div>
