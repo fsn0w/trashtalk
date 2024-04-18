@@ -22,7 +22,7 @@ $company2 = get_field('keep_company_2');
 <div class="flex  min-h-[70vh] overflow-hidden text-center pt-40 pb-14 bg-no-repeat bg-cover md:bg-fixed relative" style="background-image:url(<?=$hero?>); background-position: center 70%;">
     <span class="absolute z-0 inset-0 w-full h-full border-red-600 bg-gradient-to-b from-[#031728]"></span>
     <div class="flex flex-col justify-between relative z-10 grow mx-auto">
-        <h1>This is a big <br> F**king <span class="inline-block font-futura bg-primary px-2 pt-2 pb-3 text-secondary text-4xl -rotate-6 translate-y-5 md:-translate-y-5">problem.</span></h1>
+        <h1>This is a big <br> F**king <span class="inline-block font-futura font-bold bg-primary px-2 pt-2 pb-3 text-secondary text-4xl -rotate-6 translate-y-5 md:-translate-y-5">problem.</span></h1>
         <div class="mt-16 md:mt-0">
             <a href="" class="md:ml-8 btn-yellow uppercase">Join the movement</a>
         </div>
