@@ -33,11 +33,11 @@ $company2 = get_field('keep_company_2');
     <div class="container mx-auto text-center">
         <h2>We Have a Big<br/> F**king Solution.</h2>
         <div class="relative inline-block mt-4 mb-14">
-            <span class="inline-block font-futura bg-primary px-2 pt-2 pb-3 text-secondary text-2xl md:text-4xl -rotate-6 -translate-y-5 absolute bottom-4 xl:bottom-1/4 -right-4 xl:-right-1/4">let's talk trash.</span>
+            <span class="inline-block font-futura font-bold bg-primary px-2 pt-2 pb-3 text-secondary text-2xl md:text-4xl -rotate-6 -translate-y-5 absolute bottom-4 xl:bottom-1/4 -right-4 xl:-right-1/4">let's talk trash.</span>
             <img src="<?=$solution_image?>" alt="let's talk trash." loading="lazy" class="mx-auto" />
         </div>
-        <h2 class="text-2xl md:text-4xl whitespace-nowrap">Welcome to <span class="inline-block font-futura bg-primary px-2 pt-1 pb-0 text-secondary text-2xl md:text-4xl -rotate-3 -translate-y-1 uppercase relative z-10">Talktrash</span></h2>
-        <h2 class="text-2xl md:text-4xl -mt-4 whitespace-nowrap">Powered by <span class="inline-block font-futura bg-secondary px-4 pt-4 pb-4 rotate-3 translate-y-3 uppercase"><img src="<?=$aeglobal_logo_black?>" class=" w-[100px] md:w-[250px]" loading="lazy" /></span></h2>
+        <h2 class="text-2xl md:text-4xl whitespace-nowrap">Welcome to <span class="inline-block font-futura font-bold bg-primary px-2 pt-1 pb-0 text-secondary text-2xl md:text-4xl -rotate-3 -translate-y-1 uppercase relative z-10">Talktrash</span></h2>
+        <h2 class="text-2xl md:text-4xl -mt-4 whitespace-nowrap">Powered by <span class="inline-block font-futura font-bold bg-secondary px-4 pt-4 pb-4 rotate-3 translate-y-3 uppercase"><img src="<?=$aeglobal_logo_black?>" class=" w-[100px] md:w-[250px]" loading="lazy" /></span></h2>
     </div>
 </div>
 
@@ -45,7 +45,7 @@ $company2 = get_field('keep_company_2');
     <div class="container mx-auto text-center py-20">
         <h2 class="text-light">Ever Heard of OBP?</h2>
         <span class="text-3xl text-light font-superdisp">(Ocean Bound Plastic)</span>
-        <p class="mt-8 text-2xl text-light font-superdisp">The short version is that <span class="inline-block font-futura bg-secondary px-2 pt-1 pb-1 text-dark text-2xl -rotate-6 md:-translate-y-1">it sucks.</span></p>
+        <p class="mt-8 text-2xl text-light font-superdisp">The short version is that <span class="inline-block font-futura font-bold bg-secondary px-2 pt-1 pb-1 text-dark text-2xl -rotate-6 md:-translate-y-1">it sucks.</span></p>
     </div>
 </div>
 
@@ -73,7 +73,7 @@ $company2 = get_field('keep_company_2');
 
 <div class="bg-light border-b-4 border-quaternary">
     <div class=" container mx-auto">
-        <h2 class="text-center">This Is How We <br/>Make the <span class="inline-block font-futura bg-primary px-2 pt-0 pb-1 md:pb-2 text-secondary text-2xl md:text-4xl -rotate-6 ">magic</span> Happen.</h2>
+        <h2 class="text-center">This Is How We <br/>Make the <span class="inline-block font-futura font-bold bg-primary px-2 pt-0 pb-1 md:pb-2 text-secondary text-2xl md:text-4xl -rotate-6 ">magic</span> Happen.</h2>
         <div class="grid md:grid-cols-3 gap-12 mt-8">
 
             <div class="img-numlist-block group">
@@ -115,7 +115,7 @@ $company2 = get_field('keep_company_2');
             </div>
         </div>
 
-        <h2 class="text-center">More Questions? <br/>We’ve Got <span class="inline-block font-futura bg-primary px-2 pt-0 pb-2 text-secondary text-2xl md:text-4xl -rotate-6 -translate-y-1">answers.</span></h2>
+        <h2 class="text-center">More Questions? <br/>We’ve Got <span class="inline-block font-futura font-bold bg-primary px-2 pt-0 pb-2 text-secondary text-2xl md:text-4xl -rotate-6 -translate-y-1">answers.</span></h2>
 
         <div class="mt-12">
 
